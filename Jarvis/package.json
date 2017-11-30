@@ -1,0 +1,14 @@
+{
+  "name": "jarvis",
+  "version": "1.0.0",
+  "description": "Jarvis AI Brandon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon",
+  "license": "MIT",
+  "dependencies": {
+    "marvel-api": "^1.1.0"
+  }
+}
