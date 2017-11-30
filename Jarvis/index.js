@@ -5,10 +5,8 @@ let marvel = api.createClient({
 	,privateKey: '3322e9ebb79a3b84b986898319ce105b983e8dc7'
 })
 
-marvel.characters.findAll(function(err, results) {
-  if (err) {
-    return console.error(err);
-  }
- 
-  console.log(results);
-});
+
+marvel.characters.findByName('agent brand')
+  .then(console.log)
+  .fail(console.error)
+  .done();
