@@ -9,6 +9,8 @@
   "author": "Brandon",
   "license": "MIT",
   "dependencies": {
+    "commander": "^2.12.2",
+    "express": "^4.16.2",
     "marvel-api": "^1.1.0"
   }
 }
